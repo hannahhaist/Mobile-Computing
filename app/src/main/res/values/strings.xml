@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">assistant</string>
+    <string name="tvChoose_str">choose assistant type</string>
+    <string name="btnPreBuilt_str">pre-built</string>
+    <string name="btnCustom_str">custom</string>
+    <string name="tvChooseFeaturesCustom_str">choose features</string>
+    <string name="btnContinueFeaturesCustom_str">continue</string>
+    <string name="checkDice_str">Dice</string>
+    <string name="checkScore_str">Score Table</string>
+    <string name="checkTimer_str">Timer</string>
+
+
 </resources>

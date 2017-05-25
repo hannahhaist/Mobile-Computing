@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvChooseFeaturesCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_weight="0.03"
+        android:onClick="animateOnClick"
+        android:text="@string/tvChooseFeaturesCustom_str"
+        android:textAlignment="textStart"
+        android:textColor="?android:attr/textColorTertiary"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="60dp"
+        android:text="@string/checkDice_str"
+        android:textAlignment="textStart" />
+
+    <CheckBox
+        android:id="@+id/checkScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="60dp"
+        android:text="@string/checkScore_str"
+        android:textAlignment="textStart" />
+
+    <CheckBox
+        android:id="@+id/checkTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="60dp"
+        android:text="@string/checkTimer_str"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnContinueFeaturesCustom"
+        style="@android:style/Widget.Material.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.05"
+        android:text="@string/btnContinueFeaturesCustom_str"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorTertiary"
+        android:typeface="sans"
+        android:onClick="toDiceSettings"/>
+</LinearLayout>
